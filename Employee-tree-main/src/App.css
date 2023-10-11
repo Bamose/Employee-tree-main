@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+#home  {
+  padding-top: 90px; 
+}
+#register {
+  padding-top: 90px; 
+}
+#employee  {
+  padding-top: 90px;
+}
+body{
+ background-image: url("C:\Users\Anella\Downloads\dot-grid.png");
+ background-repeat: repeat;
+ /* color:white; */ 
+ overflow: scroll;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(43, 43, 43);
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* #############################################################################  */ 
+
+.grid-cols-2{
+  grid-template-columns: 300px, 200px;
+}
+/* #############################################################################  */    
+
+.slide-container .nav > div svg {
+  color: gray;
+  transition: 0.3s all;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slide-container .nav > div svg:hover {
+  transform: scale(1.2);
+}
+/* .fade-and-scale-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.fade-and-scale-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 1000ms;
+}
+.fade-and-scale-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.fade-and-scale-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 1000ms;
+} */
